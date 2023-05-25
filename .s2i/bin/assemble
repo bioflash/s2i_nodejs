@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Hell from before assemble script"
+
+/usr/libexec/s2i/assemble
+
+echo "Hello from after assemble script"
